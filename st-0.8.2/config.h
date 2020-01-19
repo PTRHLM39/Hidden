@@ -120,8 +120,9 @@ unsigned int defaultfg = 7;
 unsigned int defaultbg = 0;
 static unsigned int defaultcs = 257;
 static unsigned int defaultrcs = 257;
+unsigned int selectionbg = 0;
 unsigned int selectionfg = 257;
-unsigned int selectionbg = 0; 
+static int ignoreselfg = 1;
 /*
  * Default shape of cursor
  * 2: Block ("█")
